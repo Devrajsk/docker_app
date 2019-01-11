@@ -21,7 +21,7 @@ $ mvn clean install
 $ mv ./target/hello*.jar ./data
 ```
 
-##### Build Docker image
+##### Build Docker image adding for commit;
 ```
 $ docker build -t="hello-world-java" .
 ```
@@ -52,7 +52,7 @@ $ curl [IPAddress]:8080
 
 the respone should be
 ```
-Hello World
+Hello World hello.....
 ```
 
 Hello.......
